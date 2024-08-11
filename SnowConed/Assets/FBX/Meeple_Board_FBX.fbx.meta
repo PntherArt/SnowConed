@@ -3,7 +3,22 @@ guid: 75cddd663ee165846a3a4c7fdeb35eca
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Board_Mat
+    second: {fileID: 2100000, guid: b52f61c9ca9253447b46e6a9d4eb67f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Body_Mat
+    second: {fileID: 2100000, guid: 12be233bda894344195dc51105561f92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Head_Mat
+    second: {fileID: 2100000, guid: e9da89b6f1f28504f8d314800ebddca3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -66,7 +81,7 @@ ModelImporter:
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

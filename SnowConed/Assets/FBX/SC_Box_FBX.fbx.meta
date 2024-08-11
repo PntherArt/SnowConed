@@ -3,7 +3,17 @@ guid: cf7bac4fefdf32d41a0431559806c007
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_Inside_Mat
+    second: {fileID: 2100000, guid: 3fa033a584d25d7448766a005936aba2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B_Outside_Mat
+    second: {fileID: 2100000, guid: fdec1c52c8853794cbc4bdb9d501f985, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -66,7 +76,7 @@ ModelImporter:
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

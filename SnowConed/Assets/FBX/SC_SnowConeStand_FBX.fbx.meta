@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c4a5582b8c043424a86cfb0569db9db0
+guid: 0fcf7b9ccc95ba34ba64ffb1b573f6cf
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,23 +7,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: T_Back_Mat
-    second: {fileID: 2100000, guid: c52f3f158fc90ff48b79f4db876e5aff, type: 2}
+      name: SCS_Door_Mat
+    second: {fileID: 2100000, guid: c08e2bb71d9228b4c9429ac528bc7c9d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: T_Body_Mat
-    second: {fileID: 2100000, guid: 8b47497df7b415b41a9f212c42a41333, type: 2}
+      name: SCS_Front_Mat
+    second: {fileID: 2100000, guid: 96064a6b0b46a2147944f79df508bb18, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: T_Wheel_Mat
-    second: {fileID: 2100000, guid: 1d0a180de47834e4484bb8810e91779a, type: 2}
+      name: SCS_Inside_Mat
+    second: {fileID: 2100000, guid: c4e86aac629e8f74281ba8f42b67f622, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: T_Window_Mat
-    second: {fileID: 2100000, guid: 2d2616ad85353f5468c86a0a6c4f3eea, type: 2}
+      name: SCS_SideWalls_Mat
+    second: {fileID: 2100000, guid: 1e56be352a8ec39478da4fe8083e80fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCS_Window_Mat
+    second: {fileID: 2100000, guid: e9748833cbaf86d4694dac883faa2721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: b230ee895c6895b4494208bfbf51901c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

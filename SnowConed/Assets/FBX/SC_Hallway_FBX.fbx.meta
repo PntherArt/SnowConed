@@ -3,7 +3,27 @@ guid: fdb89d23c4cf55d4296f287ed3fe5130
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_Door_Mat
+    second: {fileID: 2100000, guid: 803193dcc32f1b64697ee1f1f66ccdf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_Floor_Mat
+    second: {fileID: 2100000, guid: 6ec081cf843d4614fb9dfc85febdca5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_Pass_Mat
+    second: {fileID: 2100000, guid: 15ac780c8c386df4baa3bf330a0e7fda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: H_Wall_Mat
+    second: {fileID: 2100000, guid: 8995f3c467751694ba6061f5d0bd0e51, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -66,7 +86,7 @@ ModelImporter:
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

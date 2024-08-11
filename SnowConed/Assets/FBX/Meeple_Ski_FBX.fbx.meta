@@ -3,7 +3,22 @@ guid: 27e555fb953f57a41b96ce3a5fe5e790
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Body_Mat
+    second: {fileID: 2100000, guid: fb613ccaba221e247bb2a121ef836052, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Head_Mat
+    second: {fileID: 2100000, guid: bda7d4296d8db3f46aaa55e5717cf4fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Ski_Mat
+    second: {fileID: 2100000, guid: f067eaf409f1f47428a24d57f5e28b43, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -66,7 +81,7 @@ ModelImporter:
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

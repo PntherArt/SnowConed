@@ -3,7 +3,22 @@ guid: 1a2b557574fef224db5160406d294fdc
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: C_Body_Mat
+    second: {fileID: 2100000, guid: b83e7e7a1505a7c479044e7892ab9ead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: C_Wheel_Mat
+    second: {fileID: 2100000, guid: 80048fe2a5a2c1e419c112a44330d520, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: C_Window_Mat
+    second: {fileID: 2100000, guid: 97ce9d5c640d2a640a8871ccee27abf4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -66,7 +81,7 @@ ModelImporter:
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
